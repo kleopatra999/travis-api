@@ -41,6 +41,7 @@ module Travis::API::V3
         all = routes.resources + [
           Routes::Resource.new(:account),   # dummy as there are only accounts routes right now
           Routes::Resource.new(:broadcast), # dummy as there are only broadcasts routes right now
+          Routes::Resource.new(:cache),     # dummy as there are only caches routes right now
           Routes::Resource.new(:commit),    # dummy as commits can only be embedded
           Routes::Resource.new(:request),   # dummy as there are only requests routes right now
           Routes::Resource.new(:error),
